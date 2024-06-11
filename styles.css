@@ -23,6 +23,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -40,6 +41,15 @@ nav ul li a {
 .dropdown {
     display: inline-block;
     position: relative;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .dropdown-content {
