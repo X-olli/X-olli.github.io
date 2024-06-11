@@ -1,9 +1,10 @@
+/* Polices et couleurs */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #fff;
+    background-color: #0f0f0f;
+    color: #00ffea;
 }
 
 header {
@@ -94,6 +95,7 @@ section {
     background-color: #1e1e1e;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
 }
 
 button {
@@ -119,4 +121,10 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
